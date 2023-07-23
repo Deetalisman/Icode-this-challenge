@@ -1,0 +1,128 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(241, 244, 244);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+:root {
+  --button: blueviolet;
+  --white: white;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 62.4%;
+  box-sizing: border-box;
+}
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.main {
+  background-color: var(--white);
+  font-size: 1.6rem;
+  padding: 2rem 1rem;
+  width: 50rem;
+  border: 1rem solid rgb(241, 237, 237);
+}
+.main p {
+  font-size: 2.5rem;
+  margin-left: 2rem;
+}
+.lists {
+  margin-top: 3rem;
+}
+.lists :last-child {
+  border-bottom: none;
+}
+.one {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgb(205, 203, 203);
+  padding: 2rem;
+}
+.two {
+  display: flex;
+}
+.two img {
+  width: 4rem;
+  height: 4rem;
+  margin-top: 1rem;
+}
+.image {
+  width: 7rem;
+  height: 7rem;
+  background-color: rgb(239, 238, 238);
+  border-radius: 50%;
+  padding: 0.5rem 1.7rem;
+}
+.four {
+  display: flex;
+  margin-top: 1rem;
+  line-height: 1.8rem;
+}
+
+.three p {
+  font-size: 1.9rem;
+}
+.name {
+  font-weight: bold;
+}
+.sub-four {
+  margin-left: 7rem;
+}
+.sub {
+  font-weight: 600;
+}
+button {
+  padding: 0.6rem 1.3rem;
+  font-size: 1.4rem;
+  background-color: var(--button);
+  color: var(--white);
+  border: 0;
+  border-radius: 1rem;
+  height: 3.4rem;
+}
+@media screen and (max-width: 540px) {
+  .main {
+    width: 85%;
+    margin: 0 7%;
+    padding: 2rem 0.2rem;
+  }
+  .two img {
+    width: 3rem;
+    height: 3rem;
+    margin-top: 1rem;
+  }
+  .image {
+    width: 5rem;
+    height: 5rem;
+    background-color: rgb(239, 238, 238);
+    border-radius: 50%;
+    padding: 0.1rem 1rem;
+  }
+  .three p {
+    font-size: 1.5rem;
+  }
+  .four p {
+    font-size: 1.4rem;
+  }
+  button {
+    font-size: 1.3rem;
+    padding: 0.7rem;
+    height: 3rem;
+  }
+  .lists {
+    margin-top: 1.7rem;
+  }
+}
