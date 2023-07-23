@@ -97,7 +97,7 @@ button {
   .main {
     width: 85%;
     margin: 0 7%;
-    padding: 2rem 0.2rem;
+    padding: 1rem 0rem;
   }
   .two img {
     width: 3rem;
@@ -111,11 +111,14 @@ button {
     border-radius: 50%;
     padding: 0.1rem 1rem;
   }
+  .one {
+    padding: 2rem 1rem;
+  }
   .three p {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
   }
   .four p {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
   }
   button {
     font-size: 1.3rem;
